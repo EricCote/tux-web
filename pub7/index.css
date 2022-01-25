@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .pub {
+    width: 300px;
+    height: 600px;
+    background-color: chocolate;
+    clip-path: inset(0);
+  }
+  
