@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+  
+.pub {
+    width: 300px;
+    height: 600px;
+    background-color: #0098d4;
+    overflow: hidden;
+    border: 1px #006087 solid;
+}
+  
+.image1 {
+    background-image: url(img_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+
+}
+
+.logo {
+    background-image: url(WINDSOR_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: center;
+   
+    position:relative;
+    /* width: 300px; */
+    top: 50px;
+    height: 100px;
+
+}
+
+
+

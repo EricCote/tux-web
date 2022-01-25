@@ -6,6 +6,7 @@ body {
 .pub {
   width: 300px;
   height: 600px;
+  clip-path: inset(0);
 }
 
 .pub > div {
