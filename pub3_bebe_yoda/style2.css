@@ -2,13 +2,15 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
 
 .pub {
   width: 300px;
   height: 300px;
+  overflow: hidden;
+
   background-image: url("yoda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,12 +24,11 @@ a{
 
 @keyframes texte {
   from {
-    transform: scale(1,0);
+    transform: scale(1, 0);
   }
-  to{
-    transform: scale(1,1);
+  to {
+    transform: scale(1, 1);
   }
-  
 }
 
 @keyframes entree-image {
@@ -38,11 +39,10 @@ a{
   }
   to {
     opacity: 1;
-    margin-left:0;
-    scale:1;
+    margin-left: 0;
+    scale: 1;
   }
 }
-
 
 .texte-flottant {
   font-size: 30px;
@@ -54,17 +54,12 @@ a{
   text-shadow: black 0 0 3px;
   animation-name: texte;
   animation-duration: 1s;
-  animation-delay: 2s; 
-  animation-fill-mode: both; 
-  transition: background-color 0.4s, top 1.9s ;
-  transition-timing-function: cubic-bezier(.87,0,.87,2.0)
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  transition: background-color 0.4s, top 1.9s;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.87, 2);
 }
 .texte-flottant:hover {
-    background-color: chocolate;
-    top:180px
+  background-color: chocolate;
+  top: 180px;
 }
-
-
-
-
-
