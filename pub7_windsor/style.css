@@ -87,16 +87,18 @@ a {
 }
 
 @keyframes btn {
+  0% {
+    opacity: 0;
+    bottom: -10px;
+  }
   5% {
     opacity: 0;
     bottom: -10px;
   }
-
   15% {
     opacity: 1;
     bottom: 30px;
   }
-
   100% {
     opacity: 1;
     bottom: 30px;
@@ -108,7 +110,6 @@ a {
     opacity: 0;
     bottom: -10px;
   }
-
   10% {
     opacity: 1;
     bottom: 30px;
@@ -155,7 +156,6 @@ a {
     opacity: 1;
     bottom: -10px;
   }
-
   100% {
     opacity: 1;
     bottom: -10px;
@@ -175,7 +175,6 @@ a {
     opacity: 1;
     top: 20px;
   }
-
   100% {
     opacity: 1;
     top: 20px;
