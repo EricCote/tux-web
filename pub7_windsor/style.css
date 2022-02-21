@@ -1,7 +1,9 @@
 body {
+  overflow: hidden;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -14,7 +16,7 @@ a {
   width: 300px;
   height: 600px;
   background-color: #0098d4;
-  overflow: hidden;
+  clip-path: inset(0px);
   border: 1px #006087 solid;
 }
 
@@ -89,42 +91,42 @@ a {
 @keyframes btn {
   0% {
     opacity: 0;
-    bottom: -10px;
+    bottom: -30px;
   }
   5% {
     opacity: 0;
-    bottom: -10px;
+    bottom: -30px;
   }
   15% {
     opacity: 1;
-    bottom: 30px;
+    bottom: 10px;
   }
   100% {
     opacity: 1;
-    bottom: 30px;
+    bottom: 10px;
   }
 }
 
 @keyframes text1 {
   0% {
     opacity: 0;
-    bottom: -10px;
+    bottom: -30px;
   }
   10% {
     opacity: 1;
-    bottom: 30px;
+    bottom: 10px;
   }
   25% {
     opacity: 1;
-    bottom: 30px;
+    bottom: 10px;
   }
   30% {
     opacity: 0;
-    bottom: 30px;
+    bottom: 10px;
   }
   100% {
     opacity: 0;
-    bottom: 30px;
+    bottom: 10px;
   }
 }
 
@@ -146,19 +148,19 @@ a {
 @keyframes text2 {
   0% {
     opacity: 0;
-    bottom: -40px;
+    top: -40px;
   }
   30% {
     opacity: 0;
-    bottom: -40px;
+    top: -40px;
   }
   40% {
     opacity: 1;
-    bottom: -10px;
+    top: 30px;
   }
   100% {
     opacity: 1;
-    bottom: -10px;
+    top: 30px;
   }
 }
 

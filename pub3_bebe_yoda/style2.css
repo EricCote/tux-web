@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
@@ -9,7 +10,8 @@ a {
 .pub {
   width: 300px;
   height: 300px;
-  overflow: hidden;
+
+  clip-path: inset(0px);
 
   background-image: url("yoda.jpg");
   background-repeat: no-repeat;

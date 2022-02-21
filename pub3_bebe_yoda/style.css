@@ -1,8 +1,9 @@
 body {
   margin: 0;
+  overflow: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -12,6 +13,7 @@ a{
   background-image: url("yoda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: inset(0px);
 }
 
 .texte-flottant {
@@ -24,11 +26,11 @@ a{
   text-shadow: black 0 0 3px;
   animation-duration: 0.5s;
   background: linear-gradient(#e66465, #9198e5);
-  transition: top 1.9s ;
-  transition-timing-function: cubic-bezier(.87,0,.87,2.0)
+  transition: top 1.9s;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.87, 2);
 }
 .texte-flottant:hover {
-    top:180px
+  top: 180px;
 }
 
 .animate__delay-10s {
